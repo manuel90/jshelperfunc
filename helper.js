@@ -170,7 +170,7 @@ Object.defineProperty(window, 'mlzl_fail', {
                  }
              }
 
-             args.text.replace("{error}",error.statusText);
+             args.text = args.text.replace("{error}",error.statusText);
  
              if( document.getElementById(id_panel) ) {
                  return;
