@@ -43,7 +43,7 @@ Object.defineProperty(window, 'mlzl_showErrors', {
                 var class_panel = 'lzlsE_mzra_container20171014';
                 var element = null;
                 if( container.getElementsByClassName(class_panel).length > 0 ) {
-                    element = container.getElementsByClassName("class_panel")[0];
+                    element = container.getElementsByClassName(class_panel)[0];
                 } else {
                     var element = document.createElement('div');
                     element.setAttribute('class', class_panel);
